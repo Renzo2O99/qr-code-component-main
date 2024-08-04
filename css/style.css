@@ -14,7 +14,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    max-height: 95vh;
+    max-height: 90vh;
 }
 
 html,
@@ -95,7 +95,7 @@ img {
     flex-direction: column;
     align-items: center;
 
-    margin: 2rem auto 0;
+    margin: 0 auto;
     height: 1rem;
     justify-content: flex-end;
 }
