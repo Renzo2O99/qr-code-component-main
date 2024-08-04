@@ -23,7 +23,7 @@ Esta es una solución al [desafío del componente de código QR en Frontend Ment
 
 ### Links
 
-- Live Site URL: [QR Code Component](https://renzo2o99.github.io/qr-code-component-main/)
+- Live Site URL: [QR Code Component](https://renzo2o99.github.io/qr-code-component-main/) by [@Renzo2O99](https://github.com/Renzo2O99/)
 
 ## Mi Proceso
 
