@@ -44,3 +44,4 @@ Puse en práctica mis habilidades en HTML 5 y CSS 3, además de implementar la m
 
 - GitHub User - [@Renzo2O99](https://github.com/Renzo2O99)
 - Frontend Mentor User - [@Renzo2O99](https://www.frontendmentor.io/profile/Renzo2O99)
+# Frontend Mentor - QR code component
