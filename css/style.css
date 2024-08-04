@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: var(--fuente__principal);
+    font-size: 1.6rem;
+    line-height: 1.8;
+    font-family: 'Outfit';
+
+    display: flex;
+    flex-direction: column;
+    max-height: 95vh;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    margin: 2rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.main {
+    flex: 1;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    border-radius: 2rem;
+    max-width: 120rem;
+    width: 90%;
+    padding: 2rem 0;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        width: 50%;
+    }
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-imagen img {
+    max-width: 90%;
+    border-radius: 2rem;
+}
+
+.contenedor-texto {
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 1rem;
+}
+
+.contenedor-texto .titulo-texto,
+.contenedor-texto p {
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+
+.contenedor-texto h2 {
+    line-height: 1.5;
+    font-size: 2.2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    height: 1rem;
+    justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    border-bottom: rgba(69, 0, 148, 0.815) solid .24rem;
+}
